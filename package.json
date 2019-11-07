@@ -6,9 +6,16 @@
   "author": "lbreguet <louis-w@live.com>",
   "license": "MIT",
   "scripts": {
-      "start": "node index"
+    "start": "node index",
+    "test": "mocha"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "supertest": "^4.0.2"
   }
 }
