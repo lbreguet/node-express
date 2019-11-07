@@ -5,6 +5,9 @@
   "repository": "https://github.com/lbreguet/node-express.git",
   "author": "lbreguet <louis-w@live.com>",
   "license": "MIT",
+  "scripts": {
+      "start": "node index"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
